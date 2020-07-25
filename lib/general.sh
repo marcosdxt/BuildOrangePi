@@ -34,8 +34,8 @@ prepare_tools()
 	fi
 
 	sudo apt-get -y --no-install-recommends --fix-missing install \
-	        bsdtar mtools u-boot-tools pv bc \
-	        gcc automake make curl lib32z1 lib32z1-dev qemu-user-static \
+	        mtools u-boot-tools pv bc \
+	        gcc automake make curl lib32z1  qemu-user-static \
 		dosfstools figlet device-tree-compiler debootstrap 1>/dev/null
 }
 
